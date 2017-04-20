@@ -1,0 +1,232 @@
+html {
+   font-size: 12px; /*declaring root element in pixels*/
+}
+
+ h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+}
+
+p {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 100;
+	font-size: 1.5rem; /*displayed at 18px  */
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+}
+
+span {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 700;
+}
+
+
+
+
+
+
+.header {
+	background-color: #000099;
+	width: 100%;
+	height: 400px;
+}
+
+.logo {
+	margin: auto;
+	width: 300px;
+}
+
+.header2 {
+	background-color: #000099;
+	width: 30%;
+	height: 400px;
+}
+
+/*-------------------------------------------------------------*/
+
+#mobile-holding {       /* image */
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto; 
+	z-index: -1;
+	top: 150px;
+}
+
+nav {
+	position: absolute;
+	top: 150px;
+}
+
+#mobile-banner {          /* dark blue panel */
+	/*position: absolute;*/
+	background-color: #000099;
+	width: 100%;
+	height: 150px; 
+}
+
+#banner-logo {
+	padding: 25px 20px 0px 30px;
+	width: 20px;
+}
+
+/*-------------------------------------------------------------*/
+/*----------mobile nav test------------------------------------*/
+
+nav {
+	display: none;
+}
+
+
+nav ul li a {
+     display: block;
+     text-decoration: none;
+     font-family: 'Mukta Vaani', sans-serif;
+     font-size: 1.45rem;
+     letter-spacing: 0.6px;
+     color: black;
+     text-align: center;
+     padding: 10px;
+     
+     /*   background-color: #66ffcc;  */
+}
+
+nav ul li {
+     font-size: 30px;
+     padding: 10px 5px;
+     background-color: #66ffcc;
+     border-bottom: 1px solid white;
+     width: 360px;
+     opacity: 0.8;
+     z-index: 99;
+
+ }
+
+li.drop {
+	position: relative;
+
+}
+
+
+
+li.supp{
+	
+	text-decoration: none;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.45rem;
+    letter-spacing: 0.6px;
+    color: black;
+    text-align: center;
+	display: none;
+	background-color: white;
+	padding: 10px;
+	height: 60px;
+	border-bottom: 1px solid black;
+}
+
+#menu-icons {
+	position: absolute;
+	top: 80px;
+	right: 25px;
+	z-index: 100;
+}
+
+#menu-icons div{
+	width: 35px;
+	height: 3px;
+	background-color: white;
+	margin-bottom: 7px;
+	border-radius: 1.5px;
+}
+
+.highlight-nav {
+	background-color: white;
+	opacity: 1;
+}
+
+
+/* ---------VVVV----  media query  ----VVVV---------------------- */
+
+
+/*@media screen and (min-width: 665px) {
+   nav ul li {
+        display: inline-block;
+        width: 150px;
+        font-size: 2.0rem;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+   nav ul li a {
+   		border-bottom: none;
+	}
+
+	nav ul {
+		border-bottom: 1px solid white;
+		background-color: #66ffcc;
+	}
+}
+
+#navmobile {
+	background-color: #66ffcc;
+}   */
+
+/*-----------END mobile nav test----------------------------------*/
+/*-----------------------------------------------------------------*/
+
+/*
+
+footer{
+          position: fixed;
+          bottom: 0px;
+          padding: 20px 20px 10px 20px;
+          background-color: #999999;
+          width: 100%;
+          height: 700px;
+       
+}
+
+.footertext {
+	width: 200px;
+	font-size: 1.25rem;
+	/*display: inline-block;  
+	margin-right: 20px;
+}
+
+.footerblurb {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-align: left;
+	line-height: 1.2;
+	color: white;
+}
+
+/*vertical-rule {
+	border: 2px;
+	height: 100px;
+	width: 2px;
+	border-color: white;
+	border-radius: none;
+	display: inline-block;   */
+
+}
+
+.col-sm-1:last-child {
+	border-bottom: 1px solid white;
+}
+
+#logobox {
+	width: 80px;
+	height: 40px;
+	background-color: white;
+	border-radius: 2px;
+	padding: 10px;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #999999;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+
