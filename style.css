@@ -76,7 +76,6 @@ nav {
 	display: none;
 }
 
-
 nav ul li a {
      display: block;
      text-decoration: none;
@@ -86,16 +85,16 @@ nav ul li a {
      color: black;
      text-align: center;
      padding: 10px;
-     
-     /*   background-color: #66ffcc;  */
+
 }
+
 
 nav ul li {
      font-size: 30px;
      padding: 10px 5px;
      background-color: #66ffcc;
      border-bottom: 1px solid white;
-     width: 360px;
+     width: 100%;
      opacity: 0.8;
      z-index: 99;
 
@@ -109,7 +108,6 @@ li.drop {
 
 
 li.supp{
-	
 	text-decoration: none;
     font-family: 'Mukta Vaani', sans-serif;
     font-size: 1.45rem;
@@ -118,8 +116,6 @@ li.supp{
     text-align: center;
 	display: none;
 	background-color: white;
-	padding: 10px;
-	height: 60px;
 	border-bottom: 1px solid black;
 }
 
