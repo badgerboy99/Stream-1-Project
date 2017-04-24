@@ -1,0 +1,47 @@
+html {
+   font-size: 12px; /*declaring root element in pixels*/
+}
+
+ h4 {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 500;
+	font-size: 3rem;
+	color: #000099;
+	background-color: none;
+}
+
+p {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 100;
+	font-size: 1.35rem; /*displayed at 16px  */
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	color: black;
+	text-decoration: none;
+}
+
+span { /* bold time  */
+	font-weight: 700;
+	color: #000099;
+}
+
+.down-arrow {
+	position: absolute;
+	right: 40px;
+	top: 28px;
+}
+
+.down-arrow span {
+	color: #bfbfbf;
+	font-size: 2rem;
+}
+
+.date-header {
+	position: relative;
+
+}
+
+
+.container {
+	padding-top: 20px;
+}
