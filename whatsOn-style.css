@@ -2,14 +2,14 @@ html {
    font-size: 12px; /*declaring root element in pixels*/
 }
 
- h4 {
+ /* h4 {
 	font-family: 'Mukta Vaani', sans-serif;
 	font-weight: 500;
-	font-size: 3rem;
+	font-size: 4rem;
 	color: #000099;
 	background-color: none;
 }
-
+*/
 p {
 	font-family: 'Mukta Vaani', sans-serif;
 	font-weight: 100;
@@ -25,10 +25,14 @@ span { /* bold time  */
 	color: #000099;
 }
 
+strong { 
+    font-weight: bold;
+}
+
 .down-arrow {
 	position: absolute;
-	right: 40px;
-	top: 28px;
+	right: 20px;
+	top: 20px;
 }
 
 .down-arrow span {
@@ -36,12 +40,24 @@ span { /* bold time  */
 	font-size: 2rem;
 }
 
-.date-header {
-	position: relative;
-
-}
-
-
 .container {
 	padding-top: 20px;
+}
+
+.panel-heading {
+	background-color: red;
+	height: 60px;
+	border-style: 1px solid black;
+}
+
+.panel-title {
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+	color: #000099;
+	background-color: none;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+
 }

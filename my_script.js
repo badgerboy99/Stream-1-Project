@@ -26,6 +26,22 @@ $(document).ready(function(){
     	
     });
 
- 
+ 	//$("panel-heading").click(function() {   //trying to get 'down arrow' to disappear
+ 	//	$(this)."down-arrow".hide();                  // and be replaced by 'up arrow'
+	//});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   });//closing tags for "document ready
