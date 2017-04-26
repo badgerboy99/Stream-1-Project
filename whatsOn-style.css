@@ -29,13 +29,13 @@ strong {
     font-weight: bold;
 }
 
-.down-arrow {
+.down-arrow {    /*  arrow div  */
 	position: absolute;
 	right: 20px;
 	top: 20px;
 }
 
-.down-arrow span {
+.down-arrow span {   /*  arrow glyph  */
 	color: #bfbfbf;
 	font-size: 2rem;
 }
@@ -44,10 +44,16 @@ strong {
 	padding-top: 20px;
 }
 
-.panel-heading {
+/*.panel_heading {
 	background-color: red;
 	height: 60px;
 	border-style: 1px solid black;
+	position: relative;
+}
+*/
+
+panel-heading {
+	position: relative;
 }
 
 .panel-title {
@@ -61,3 +67,5 @@ strong {
 	padding-top: 5px;
 
 }
+
+
