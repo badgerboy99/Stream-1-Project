@@ -3,8 +3,13 @@ html {
 }
 
  h1 {
-	font-family: 'Playfair Display', serif;
-	font-weight: bolder;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: 700;
+	font-size: 2.5rem; /*displayed at 18px  */
+	letter-spacing: 0.25px;
+	color: #000099;
+	margin-bottom: 10px;
+	line-height: 1.15;
 }
 
 p {
