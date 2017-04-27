@@ -1,0 +1,30 @@
+.container {
+	padding: 20px;
+	position: relative;
+}
+
+figure {
+	padding-bottom: 10px;
+}
+
+#pullquote {
+	border: 1px solid #000099;
+	border-width: 1px 0px 1px 0px;
+	padding: 12px 0px 12px 0px;
+	margin: 5px 0px 5px 0px;
+	width: 130px;
+	position: absolute;
+	right: 20px;
+	top: 502px;
+	float: right;
+}
+
+
+#pullquote p{
+	color: #000099;
+	font-family: 'Holtwood One SC', serif;
+	font-size: 2rem;
+	text-align: center;
+	letter-spacing: 0.5px;
+	line-height: 1.1;
+}
