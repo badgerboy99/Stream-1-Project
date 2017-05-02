@@ -1,6 +1,6 @@
 .container {
 	padding: 20px;
-	position: relative;
+	/*position: relative;*/
 }
 
 figure {
@@ -11,12 +11,13 @@ figure {
 	border: 1px solid #000099;
 	border-width: 1px 0px 1px 0px;
 	padding: 12px 0px 12px 0px;
-	margin: 5px 0px 5px 0px;
+	margin: -10px 0px 5px 20px;
 	width: 130px;
-	position: absolute;
+	/*position: absolute;*/
 	right: 20px;
 	top: 502px;
 	float: right;
+
 }
 
 

@@ -19,16 +19,19 @@ $(document).ready(function(){
  	
 	});
 
- 	$("nav ul li").click(function(){
+ 	$("nav ul li").click(function(){  // on navbar----------------------------------------
      	
     	$(this).addClass("highlight-nav");
     	$("nav ul li").removeClass("highlight-nav");
     	
     });
 
- 	//$("panel-heading").click(function() {   //trying to get 'down arrow' to disappear
- 	//	$(this)."down-arrow".hide();                  // and be replaced by 'up arrow'
-	//});
+//-----------------WHAT'S ON PAGE --------------------------------//
+
+ 	$(".panel-heading").click(function() {   //trying to get 'down arrow' to disappear
+ 	      $(this.downArrow).hide();  
+                        // and be replaced by 'up arrow'
+	});
 
 
 
