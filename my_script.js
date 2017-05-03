@@ -36,9 +36,11 @@ $(document).ready(function(){
 
 
 
+// --------CAROUSEL ------------------------------------------------------------
 
-
-
+$('.carousel').carousel({
+  interval: 5000
+});
 
 
 
