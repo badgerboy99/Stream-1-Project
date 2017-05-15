@@ -15,22 +15,19 @@ p {
 	line-height: 1.5;
 	letter-spacing: 0.5px;
 	color: black;
-	text-decoration: none;
 	text-align: left;
 }
 
 #form-blurb {
 	font-family: 'Mukta Vaani', sans-serif;
 	font-weight: 300;
-	font-size: 1.20rem;
+	font-size: 1.10rem;
 	line-height: 1.5;
 	letter-spacing: 0.5px;
 	color: black;
-	text-decoration: none;
 	text-align: left;
 	margin-bottom: 30px;
 	margin-top: 30px;
-	
 }
 
 input {
@@ -42,7 +39,6 @@ input {
 	color: black;
 	text-decoration: none;
 	margin-bottom: 15px; 
-
 }
 
 label {
@@ -57,14 +53,12 @@ label {
 
 .dropdown {
 	margin-bottom: 20px;
-
 }
 
 button {
 	height: 45px;
 	width: 100%;
 	position: relative;
-	
 }
 
 button.btn.btn-default:last-child {

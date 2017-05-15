@@ -1,7 +1,8 @@
 #box {
 	width: 100%;
 	background-color: #ff3399;
-	height: 800px;
+	height: auto;
+	padding-bottom: 30px;
 }
 
 .aside-text {
@@ -41,7 +42,7 @@ button a {
 }
 
 
-figure {
+.aside-text figure {
 	width: 250px;
 	height: auto;
 	box-shadow: 10px 10px 10px #99004d;
@@ -53,4 +54,13 @@ figure {
   	margin-left: auto;
     border: 15px solid white;
     background-color: white;
+}
+
+#first {
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	box-shadow: none;
+	border: none;
+	width: 100%;
 }

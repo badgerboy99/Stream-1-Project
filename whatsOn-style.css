@@ -13,14 +13,19 @@ html {
 p {
 	font-family: 'Mukta Vaani', sans-serif;
 	font-weight: 100;
-	font-size: 1.35rem; /*displayed at 16px  */
+	font-size: 1.35rem;            /*displayed at 16px  */
 	line-height: 1.5;
 	letter-spacing: 0.5px;
 	color: black;
 	text-decoration: none;
 }
 
-span { /* bold time  */
+panel-heading.panel-body p {        /* ! doesn't work ! */
+	text-decoration: none;
+	color: red;
+}
+
+span {                              /* bold time  */
 	font-weight: 700;
 	color: #000099;
 }
@@ -29,13 +34,17 @@ strong {
     font-weight: bold;
 }
 
-.down-arrow {    /*  arrow div  */
+h4.panel-title.panel-heading {      /* ! doesn't work ! */
+	text-decoration: none;
+}
+
+.down-arrow {                       /*  arrow div  */
 	position: absolute;
 	right: 20px;
 	top: 13px;
 }
 
-.down-arrow span {   /*  arrow glyph  */
+.down-arrow span {                  /*  arrow glyph  */
 	color: #bfbfbf;
 	font-size: 2rem;
 }
@@ -54,12 +63,6 @@ strong {
 
 .panel-heading {
 	position: relative;
-	
-}
-
-panel.panel-default {
-	text-decoration: none;
-	background-color: red;
 }
 
 .panel-title {
@@ -67,8 +70,8 @@ panel.panel-default {
 	font-weight: 500;
 	font-size: 2.15rem;
 	color: #000099;
-	background-color: none;
-	text-decoration: none;
+	background-color: none;     /* ! doesn't work ! */
+	text-decoration: none;       /* ! doesn't work ! */
 	letter-spacing: 0.5px;
 	padding-top: 5px;
 
